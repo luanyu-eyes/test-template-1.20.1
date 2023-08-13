@@ -1,0 +1,13 @@
+{
+  "item.test.ruby": "测试物品",
+  "item.test.metal_detector": "金属探测器",
+  "item.test.tomato": "番茄",
+  "item.test.coal_replace": "新煤",
+
+  "block.test.ruby_block": "测试方块",
+  "block.test.sound_block": "声音方块",
+
+  "itemgroup.ruby": "测试分组",
+
+  "tooltip.test.metal_detector.tooltip": "搜寻地下64格内的矿物"
+}
