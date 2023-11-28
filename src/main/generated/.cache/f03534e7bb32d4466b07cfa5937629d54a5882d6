@@ -1,0 +1,6 @@
+// 1.20.1	2023-11-28T17:13:17.8315551	Test/Tags for minecraft:block
+ec30e09cd40df0b600097d91a557f68c3034b5d3 data\fabric\tags\blocks\needs_tool_level_4.json
+ae4ac25f27d2658cbf6a338b86d0bde7b2373100 data\minecraft\tags\blocks\needs_iron_tool.json
+888eb875a37274e5d43031590405b63225c54b40 data\test\tags\blocks\metal_detector_blocks.json
+368ddcb37a207a12123b77a081ef38bfb9d75fd2 data\minecraft\tags\blocks\needs_stone_tool.json
+ff97eb9dbb2f2b891ae8cef9ae4c244a1c8d9856 data\minecraft\tags\blocks\mineable\pickaxe.json

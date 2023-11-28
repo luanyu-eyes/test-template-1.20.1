@@ -1,0 +1,4 @@
+// 1.20.1	2023-11-28T17:13:17.8325515	Test/Block Loot Tables
+2d4c97fb7e2d477dad4ca2f51137801993f7fa24 data\test\loot_tables\blocks\sound_block.json
+292b9a1b8c1cae482f65549a7912b31576fd775e data\test\loot_tables\blocks\ruby_ore.json
+251731c14c8e6be8441c2aaf639c37bf0d35b242 data\test\loot_tables\blocks\ruby_block.json

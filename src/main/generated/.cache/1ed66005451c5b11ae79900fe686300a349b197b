@@ -1,0 +1,11 @@
+// 1.20.1	2023-11-28T17:13:17.8265679	Test/Recipes
+3795b7759e26fb97e4bbe5619f24812fae675c98 data\test\recipes\ruby.json
+b52b627efe7ad53497d989b024fb317cb3513890 data\test\recipes\ruby_block.json
+e828234cfa3b9451e13b278964176177b2706a95 data\test\recipes\ruby_from_smelting_metal_detector.json
+8471ae21ec44fd92a280102ac63e9414ca3a0f7b data\test\recipes\ruby_from_smelting_ruby.json
+52b2185c8ef5fbb5fafaa3ecd35edfeebdfa2006 data\test\advancements\recipes\decorations\ruby_block.json
+e1b827a5893a49c9ae4b188943da1cb21b1ca7ea data\test\recipes\metal_detector.json
+0e05c0ee31b813bab5a648b2d80a2f8f5ec18221 data\test\advancements\recipes\misc\ruby_from_smelting_ruby.json
+abd2389f0d164f02dc1fe79089b5be9070fbca90 data\test\advancements\recipes\building_blocks\ruby.json
+6710f4f4cd7550cb313595d8e805ac47cc130e01 data\test\advancements\recipes\misc\metal_detector.json
+8a1a1ff05b871584a9130cd64ab31051ff439f96 data\test\advancements\recipes\misc\ruby_from_smelting_metal_detector.json

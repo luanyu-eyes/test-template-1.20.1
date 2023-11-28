@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test:ruby_block",
+    "test:ruby_ore",
+    "test:sound_block"
+  ]
+}
