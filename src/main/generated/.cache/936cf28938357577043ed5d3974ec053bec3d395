@@ -1,14 +1,17 @@
-// 1.20.1	2023-11-28T21:37:17.1506904	Test/Model Definitions
+// 1.20.1	2023-11-29T16:54:38.6247225	Test/Model Definitions
 4f7ddd1ba2afef5eb23a5e9743a23533750c8c0b assets\test\models\item\ruby_pressure_plate.json
 5dfa46e0e7b78bb2a81f4ebc173ec9d9a385212a assets\test\models\item\ruby_fence.json
 f1a47e47342e4b8832d0784970054d41c4bb78ac assets\test\models\item\ruby_ore.json
 8e0c94028d1c1af4be37c263ed7ebd6b047dc4aa assets\test\models\block\ruby_wall_side_tall.json
 86595ca90ff6c1b81bb7826c4b28cca46a5e0bbb assets\test\models\block\sound_block.json
 9e3e445f26e8064c27512083cc7a9bcb3e998cb3 assets\test\blockstates\ruby_stairs.json
+a107279f2bf986fc626d5c29800a4f6f1078ffaf assets\test\models\item\ruby_sword.json
+7e62a262b4c8937852511f435471970fadb7ff49 assets\test\models\item\ruby_hoe.json
 f51da3f31b1e95166456c9410eb8c6483924a612 assets\test\models\item\sound_block.json
 163b825a55e565b231224f5816e0b3fb5967ed95 assets\test\models\block\ruby_button_inventory.json
 42be3aa47a8fbf9da124cee58e98bdccb716beae assets\test\models\block\ruby_ore.json
 42a4867016ae69e29b3b77874569ca2f9fd80752 assets\test\models\block\ruby_trapdoor_open.json
+7f80e79b6286918783812197c0e3d1479e04b72d assets\test\models\item\ruby_pickaxe.json
 055bcab9243f554eec66f426bc25c5a3d42f81be assets\test\models\block\ruby_door_top_right_open.json
 5934d565f5939316be1cc5568e7553ff6a4d1f59 assets\test\models\block\ruby_door_bottom_left_open.json
 61a64c9b745c33e17db33ebc2127f93a50191142 assets\test\models\block\ruby_slab.json
@@ -31,15 +34,17 @@ fd52d04537d0fbe5602bea04549b6e796c39d97f assets\test\blockstates\ruby_wall.json
 b55db7de14025b3efc72cdc4f5a8869b2986f5ce assets\test\blockstates\sound_block.json
 66add109733b1e297d9b289db4b2cc5e80d4e331 assets\test\models\item\ruby_wall.json
 cd68ba23f1748934394c94886975313d05bc5969 assets\test\models\block\ruby_pressure_plate.json
+6a44e8465306bf646539a45858701ae45c71f71e assets\test\models\item\ruby_axe.json
 8f3bfb6332a87766fd33e7ca11c9d6c6f478a810 assets\test\models\block\ruby_stairs.json
 c086d83930036f7a0f02796be289bcc5707a34b1 assets\test\blockstates\ruby_door.json
 20b6ec845314eff3387e037dc4abdc52ffdbd927 assets\test\models\block\ruby_stairs_inner.json
-291bb3833801a4bcf79cdbb78d690f4c46234560 assets\test\models\block\ruby_button.json
 2ffe5e5cf7059e203fab3d1f3ce3e4a854ee1b22 assets\test\models\block\ruby_wall_inventory.json
+291bb3833801a4bcf79cdbb78d690f4c46234560 assets\test\models\block\ruby_button.json
 5ae147b57fc3533c4b1654bdfb0dd16d3b107343 assets\test\blockstates\ruby_block.json
 2b087a55ef598b2b1a3d427fcb5e01102ec4fa77 assets\test\models\block\ruby_wall_side.json
 6ee16f7824288bed29e98a29d8ecd42ce3064299 assets\test\models\block\ruby_door_bottom_right.json
 8c03b9d8f710ee707ac715c1335c1f188fad1d35 assets\test\models\block\ruby_door_bottom_left.json
+4fc9520a19a74b0714992fa9e4735a0c91d55c49 assets\test\models\item\ruby_shovel.json
 5d0c1e4bcc0af4c76f6f9272cc2154c403a31698 assets\test\models\block\ruby_fence_inventory.json
 8d4938bbf4d023dec98c0686df8e8e47508ed531 assets\test\models\item\tomato.json
 be45377f79491e90e7327de8fdd7835453bce6a3 assets\test\models\item\ruby_gate_fence.json

@@ -4,6 +4,11 @@
   "item.test.tomato": "番茄",
   "item.test.coal_replace": "新煤",
   "item.test.ruby_staff": "红宝石手杖",
+  "item.test.ruby_pickaxe": "红宝石镐子",
+  "item.test.ruby_axe": "红宝石斧子",
+  "item.test.ruby_shovel": "红宝石铲子",
+  "item.test.ruby_sword": "红宝石剑",
+  "item.test.ruby_hoe": "红宝石锄头",
 
   "block.test.ruby_block": "红宝石方块",
   "block.test.sound_block": "声音方块",
