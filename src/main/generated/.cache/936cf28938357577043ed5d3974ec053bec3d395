@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-29T16:54:38.6247225	Test/Model Definitions
+// 1.20.1	2023-11-29T17:14:05.4188881	Test/Model Definitions
 4f7ddd1ba2afef5eb23a5e9743a23533750c8c0b assets\test\models\item\ruby_pressure_plate.json
 5dfa46e0e7b78bb2a81f4ebc173ec9d9a385212a assets\test\models\item\ruby_fence.json
 f1a47e47342e4b8832d0784970054d41c4bb78ac assets\test\models\item\ruby_ore.json
@@ -34,12 +34,12 @@ fd52d04537d0fbe5602bea04549b6e796c39d97f assets\test\blockstates\ruby_wall.json
 b55db7de14025b3efc72cdc4f5a8869b2986f5ce assets\test\blockstates\sound_block.json
 66add109733b1e297d9b289db4b2cc5e80d4e331 assets\test\models\item\ruby_wall.json
 cd68ba23f1748934394c94886975313d05bc5969 assets\test\models\block\ruby_pressure_plate.json
-6a44e8465306bf646539a45858701ae45c71f71e assets\test\models\item\ruby_axe.json
 8f3bfb6332a87766fd33e7ca11c9d6c6f478a810 assets\test\models\block\ruby_stairs.json
+6a44e8465306bf646539a45858701ae45c71f71e assets\test\models\item\ruby_axe.json
 c086d83930036f7a0f02796be289bcc5707a34b1 assets\test\blockstates\ruby_door.json
 20b6ec845314eff3387e037dc4abdc52ffdbd927 assets\test\models\block\ruby_stairs_inner.json
-2ffe5e5cf7059e203fab3d1f3ce3e4a854ee1b22 assets\test\models\block\ruby_wall_inventory.json
 291bb3833801a4bcf79cdbb78d690f4c46234560 assets\test\models\block\ruby_button.json
+2ffe5e5cf7059e203fab3d1f3ce3e4a854ee1b22 assets\test\models\block\ruby_wall_inventory.json
 5ae147b57fc3533c4b1654bdfb0dd16d3b107343 assets\test\blockstates\ruby_block.json
 2b087a55ef598b2b1a3d427fcb5e01102ec4fa77 assets\test\models\block\ruby_wall_side.json
 6ee16f7824288bed29e98a29d8ecd42ce3064299 assets\test\models\block\ruby_door_bottom_right.json
@@ -50,8 +50,8 @@ c086d83930036f7a0f02796be289bcc5707a34b1 assets\test\blockstates\ruby_door.json
 be45377f79491e90e7327de8fdd7835453bce6a3 assets\test\models\item\ruby_gate_fence.json
 baac4b2699843ad571dd457303cde80ba58b8dfa assets\test\models\item\ruby_slab.json
 41a84dfe45a8fe7476e7befe1510963945015af5 assets\test\models\block\ruby_door_bottom_right_open.json
-9e80c111e68486a806aa07c634710e8326f4f009 assets\test\models\block\ruby_gate_fence.json
 443f34be4fa515576ce23767a6a107b89bff7ae4 assets\test\models\block\ruby_door_top_left.json
+9e80c111e68486a806aa07c634710e8326f4f009 assets\test\models\block\ruby_gate_fence.json
 9441e48e960e05c8039bfde6a86336e2ca62839d assets\test\models\item\ruby_button.json
 52cd24f5db33e0f68a4e0a963a6cfc058e20df35 assets\test\blockstates\ruby_fence.json
 6ce0e3d2541b9b11f4ef1fd6deecd6cbd1f400be assets\test\models\item\ruby_door.json

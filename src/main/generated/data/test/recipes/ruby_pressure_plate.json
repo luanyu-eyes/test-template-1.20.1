@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "test:ruby"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "test:ruby_pressure_plate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "test:ruby"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " C ",
+    " C "
+  ],
+  "result": {
+    "item": "test:ruby_pickaxe"
+  },
+  "show_notification": true
+}
