@@ -22,6 +22,9 @@ public class ModItems {
     public static final Item COAL_REPLACE = registerItem("coal_replace",
             new Item(new FabricItemSettings()));
 
+    public static final Item RUBY_STAFF = registerItem("ruby_staff",
+            new Item(new FabricItemSettings().maxDamage(1)));
+
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
     }
