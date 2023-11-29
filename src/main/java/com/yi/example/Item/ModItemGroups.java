@@ -21,8 +21,17 @@ public class ModItemGroups {
                         entries.add(ModItems.COAL_REPLACE);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(Items.DIAMOND_BLOCK);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_GATE_FENCE);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                     }).build());
 
     public static void registerItemGroups(){

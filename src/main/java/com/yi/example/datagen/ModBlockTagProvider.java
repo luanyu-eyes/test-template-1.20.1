@@ -44,5 +44,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")))
                 .add(ModBlocks.SOUND_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RUBY_GATE_FENCE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL);
     }
 }

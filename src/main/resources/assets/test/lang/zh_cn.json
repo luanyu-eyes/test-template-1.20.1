@@ -1,14 +1,23 @@
 {
-  "item.test.ruby": "测试物品",
+  "item.test.ruby": "红宝石",
   "item.test.metal_detector": "金属探测器",
   "item.test.tomato": "番茄",
   "item.test.coal_replace": "新煤",
 
-  "block.test.ruby_block": "测试方块",
+  "block.test.ruby_block": "红宝石方块",
   "block.test.sound_block": "声音方块",
-  "block.test.ruby_ore": "测试矿物",
+  "block.test.ruby_stairs": "红宝石楼梯",
+  "block.test.ruby_slab": "红宝石台阶",
+  "block.test.ruby_button": "红宝石按钮",
+  "block.test.ruby_pressure_plate": "红宝石压力板",
+  "block.test.ruby_fence": "红宝石栅栏",
+  "block.test.ruby_fence_gate": "红宝石栅栏门",
+  "block.test.ruby_wall": "红宝石墙",
+  "block.test.ruby_door": "红宝石门",
+  "block.test.ruby_trapdoor": "红宝石活板门",
+  "block.test.ruby_ore": "红宝石矿",
 
-  "itemgroup.ruby": "测试分组",
+  "itemgroup.ruby": "红宝石",
 
   "tooltip.test.metal_detector.tooltip": "搜寻地下64格内的矿物"
 }
