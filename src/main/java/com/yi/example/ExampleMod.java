@@ -3,6 +3,7 @@ package com.yi.example;
 import com.yi.example.Item.ModItemGroups;
 import com.yi.example.Item.ModItems;
 import com.yi.example.block.ModBlocks;
+import com.yi.example.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -27,6 +28,7 @@ public class ExampleMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_REPLACE, 200);
 	}
