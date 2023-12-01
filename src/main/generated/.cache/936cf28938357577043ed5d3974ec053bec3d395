@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T15:07:58.1514446	Test/Model Definitions
+// 1.20.1	2023-12-01T16:07:17.9452189	Test/Model Definitions
 5e62a7e075234eb5773d7c1dfbc2024c0093bd18 assets\test\models\item\ruby_leggings_amethyst_trim.json
 86595ca90ff6c1b81bb7826c4b28cca46a5e0bbb assets\test\models\block\sound_block.json
 d29cfb5175e3d2feb3414f28bfc289b3db17fbdb assets\test\models\block\corn_crop_stage5.json
@@ -89,8 +89,8 @@ b1c0b8cb3fa2501d2c98218447de1b345f06672d assets\test\models\item\ruby_helmet_net
 86d4ce9d88e0ab792732043be5b27a0d0d758d2d assets\test\models\item\ruby_chestplate_emerald_trim.json
 9e69bde5f095258a44022340b62adc6f61ed3ee9 assets\test\models\item\metal_detector.json
 b162f9a5892ce415f5418bef31a0ef8bcc6fe2c3 assets\test\models\item\ruby_boots_redstone_trim.json
-fa04700b34c9521d6d5b61d8f81545784d2845c6 assets\test\models\block\ruby_gate_fence_open.json
 09e649101d540116d9c3bff2b23a6b69a64ad856 assets\test\models\block\ruby_button_pressed.json
+fa04700b34c9521d6d5b61d8f81545784d2845c6 assets\test\models\block\ruby_gate_fence_open.json
 45b8262d4041e3a40a433c6998eff7f7a793534b assets\test\models\item\ruby_chestplate_amethyst_trim.json
 52103f120cc65fe560ad0e91b610c3e869bdcb81 assets\test\models\item\ruby_chestplate_netherite_trim.json
 86aa31b56954f833a3db4000cab1edbd726fc4ec assets\test\models\block\ruby_trapdoor_top.json

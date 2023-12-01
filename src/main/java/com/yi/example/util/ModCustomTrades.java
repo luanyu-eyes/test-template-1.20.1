@@ -1,6 +1,7 @@
 package com.yi.example.util;
 
 import com.yi.example.Item.ModItems;
+import com.yi.example.villager.ModVillagers;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.enchantment.Enchantments;
@@ -45,5 +46,17 @@ public class ModCustomTrades {
                         new ItemStack(ModItems.RUBY,1),
                         new ItemStack(ModItems.COAL_REPLACE,1),
                         1,12,0.075f)));
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER,2,
+                factories -> factories.add((entity, random) -> new TradeOffer(
+                        new ItemStack(Items.GOLD_INGOT,16),
+                        new ItemStack(Items.DIAMOND,12),
+                        new ItemStack(ModItems.TOMATO,7),
+                        2,6,0.75f)));
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER,1,
+                factories -> factories.add((entity, random) -> new TradeOffer(
+                        new ItemStack(ModItems.RUBY,32),
+                        EnchantedBookItem.forEnchantment(new EnchantmentLevelEntry(Enchantments.PIERCING,2)),
+                        2,6,0.75f)));
     }
 }
