@@ -31,6 +31,13 @@
   "block.test.ruby_trapdoor": "红宝石活板门",
   "block.test.ruby_ore": "红宝石矿",
 
+  "sounds.test.metal_detector_found_ore": "滴滴滴",
+  "sounds.test.sound_block_break": "声音方块打破",
+  "sounds.test.sound_block_step": "声音方块踩踏",
+  "sounds.test.sound_block_place": "声音方块放置",
+  "sounds.test.sound_block_hit": "声音方块击打",
+  "sounds.test.sound_block_fall": "声音方块落下",
+
   "itemgroup.ruby": "红宝石",
 
   "tooltip.test.metal_detector.tooltip": "搜寻地下64格内的矿物"

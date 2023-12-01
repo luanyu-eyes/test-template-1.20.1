@@ -1,6 +1,7 @@
 package com.yi.example.block;
 
 import com.yi.example.ExampleMod;
+import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.custom.CornCropBlock;
 import com.yi.example.block.custom.SoundBlock;
 import com.yi.example.block.custom.TomatoCropBlock;
@@ -20,7 +21,7 @@ public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RUBY_SLAB = registerBlock("ruby_slab",

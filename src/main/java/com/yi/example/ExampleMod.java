@@ -2,6 +2,7 @@ package com.yi.example;
 
 import com.yi.example.Item.ModItemGroups;
 import com.yi.example.Item.ModItems;
+import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.ModBlocks;
 import com.yi.example.util.ModCustomTrades;
 import com.yi.example.util.ModLootTableModifiers;
@@ -31,6 +32,7 @@ public class ExampleMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_REPLACE, 200);
 	}
