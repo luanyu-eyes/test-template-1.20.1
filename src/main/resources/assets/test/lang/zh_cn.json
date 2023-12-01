@@ -9,6 +9,10 @@
   "item.test.ruby_shovel": "红宝石铲子",
   "item.test.ruby_sword": "红宝石剑",
   "item.test.ruby_hoe": "红宝石锄头",
+  "item.test.ruby_helmet": "红宝石头盔",
+  "item.test.ruby_chestplate": "红宝石胸甲",
+  "item.test.ruby_leggings": "红宝石护腿",
+  "item.test.ruby_boots": "红宝石鞋子 ",
 
   "block.test.ruby_block": "红宝石方块",
   "block.test.sound_block": "声音方块",

@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
+import net.minecraft.item.trim.ArmorTrim;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -31,6 +32,14 @@ public class ModItems {
             new SwordItem(ModToolMaterial.RUBY,5,3f,new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.TEST,0,0f,new FabricItemSettings()));
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.BOOTS,new FabricItemSettings()));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
