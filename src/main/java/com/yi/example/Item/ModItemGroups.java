@@ -19,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.COAL_REPLACE);
+
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.RUBY_PICKAXE);
                         entries.add(ModItems.RUBY_AXE);

@@ -1,9 +1,9 @@
-// 1.20.1	2023-12-01T16:07:17.9502059	Test/Tags for minecraft:block
+// 1.20.1	2023-12-01T17:08:42.8520741	Test/Tags for minecraft:block
 ec30e09cd40df0b600097d91a557f68c3034b5d3 data\fabric\tags\blocks\needs_tool_level_4.json
 fbb5176bef7a81c0732ade0df7f2ab1857bca4e7 data\minecraft\tags\blocks\fences.json
 ae4ac25f27d2658cbf6a338b86d0bde7b2373100 data\minecraft\tags\blocks\needs_iron_tool.json
 888eb875a37274e5d43031590405b63225c54b40 data\test\tags\blocks\metal_detector_blocks.json
 ff97eb9dbb2f2b891ae8cef9ae4c244a1c8d9856 data\minecraft\tags\blocks\mineable\pickaxe.json
 368ddcb37a207a12123b77a081ef38bfb9d75fd2 data\minecraft\tags\blocks\needs_stone_tool.json
-ef625616b11fb90cda8f6167cfa522e1cd66f53d data\minecraft\tags\blocks\fence_gates.json
 5f6ffa87a64585bbca6981959fa388afd585fb67 data\minecraft\tags\blocks\walls.json
+ef625616b11fb90cda8f6167cfa522e1cd66f53d data\minecraft\tags\blocks\fence_gates.json

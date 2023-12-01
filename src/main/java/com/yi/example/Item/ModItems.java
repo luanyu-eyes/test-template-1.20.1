@@ -3,6 +3,7 @@ package com.yi.example.Item;
 import com.yi.example.ExampleMod;
 import com.yi.example.Item.custom.MetalDetectorItem;
 import com.yi.example.Item.custom.ModArmorItem;
+import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -48,6 +49,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item CRON_SEEDS = registerItem("corn_seeds",
             new AliasedBlockItem(ModBlocks.CORN_CROP,new FabricItemSettings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL,new FabricItemSettings().maxCount(1),122));
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
     }
