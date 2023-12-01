@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T10:28:07.8706677	Test/Recipes
+// 1.20.1	2023-12-01T12:56:53.5208327	Test/Recipes
 09f70942ed14f119daafee5ce87028f3e53df752 data\test\recipes\ruby_gate_fence.json
 cde9049bf5917cd63f86f60c0503ab6bee92516a data\test\advancements\recipes\building_blocks\ruby_slab.json
 e2d5a15599fa820da62f660a91d052b9e5a9260a data\test\recipes\ruby_door.json
@@ -17,8 +17,8 @@ c4273841a1bcec0dfde52f1084389c5c8e9d7c15 data\test\recipes\ruby_trapdoor.json
 0829b65a4c6a2f608d37196747f091e99bb30091 data\test\advancements\recipes\redstone\ruby_gate_fence.json
 a5e43c55c3c5c7a7d0b27105cdce8981aa5204e2 data\test\recipes\ruby_wall.json
 09ae3ffc96835c0d150a6ca49592e0913f64b71d data\test\advancements\recipes\tools\ruby_hoe.json
-f6f454abb703ed1db19f4c99d85208b12184f282 data\test\advancements\recipes\building_blocks\ruby_wall.json
 8a1a1ff05b871584a9130cd64ab31051ff439f96 data\test\advancements\recipes\misc\ruby_from_smelting_metal_detector.json
+f6f454abb703ed1db19f4c99d85208b12184f282 data\test\advancements\recipes\building_blocks\ruby_wall.json
 d170800c33351ef6e530e7b4101dd7cbc449a66b data\test\recipes\ruby_fence.json
 b52b627efe7ad53497d989b024fb317cb3513890 data\test\recipes\ruby_block.json
 c112f7273b3dffa5f87fa1ae12fc83ab141e3981 data\test\advancements\recipes\decorations\ruby_fence.json

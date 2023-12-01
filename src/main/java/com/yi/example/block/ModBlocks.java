@@ -2,6 +2,7 @@ package com.yi.example.block;
 
 import com.yi.example.ExampleMod;
 import com.yi.example.block.custom.SoundBlock;
+import com.yi.example.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -38,6 +39,8 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(),BlockSetType.IRON));
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK,new Identifier(ExampleMod.MOD_ID,"tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ExampleMod.MOD_ID, name), block);
