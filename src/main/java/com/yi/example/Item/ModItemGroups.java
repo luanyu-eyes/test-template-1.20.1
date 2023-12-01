@@ -46,6 +46,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_WALL);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DAHLIA);
                     }).build());
 
     public static void registerItemGroups(){
