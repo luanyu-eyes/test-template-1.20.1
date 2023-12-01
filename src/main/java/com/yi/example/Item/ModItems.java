@@ -43,8 +43,11 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
-            new AliasedBlockItem(ModBlocks.TOMATO_CROP,new FabricItemSettings()));
-
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item CRON = registerItem("corn",
+            new Item(new FabricItemSettings()));
+    public static final Item CRON_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROP,new FabricItemSettings()));
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
     }
