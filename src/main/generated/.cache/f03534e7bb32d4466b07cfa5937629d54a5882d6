@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T17:08:42.8520741	Test/Tags for minecraft:block
+// 1.20.2	2023-12-02T16:15:56.6782156	Test/Tags for minecraft:block
 ec30e09cd40df0b600097d91a557f68c3034b5d3 data\fabric\tags\blocks\needs_tool_level_4.json
 fbb5176bef7a81c0732ade0df7f2ab1857bca4e7 data\minecraft\tags\blocks\fences.json
 ae4ac25f27d2658cbf6a338b86d0bde7b2373100 data\minecraft\tags\blocks\needs_iron_tool.json

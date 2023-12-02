@@ -5,6 +5,7 @@ import com.yi.example.Item.custom.MetalDetectorItem;
 import com.yi.example.Item.custom.ModArmorItem;
 import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.ModBlocks;
+import com.yi.example.entity.ModEntities;
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -51,6 +52,8 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP,new FabricItemSettings()));
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
             new MusicDiscItem(7, ModSounds.BAR_BRAWL,new FabricItemSettings().maxCount(1),122));
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE,0xa86518,0x3b260f,new FabricItemSettings()));
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
     }

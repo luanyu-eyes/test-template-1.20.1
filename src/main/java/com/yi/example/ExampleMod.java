@@ -4,10 +4,13 @@ import com.yi.example.Item.ModItemGroups;
 import com.yi.example.Item.ModItems;
 import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.ModBlocks;
+import com.yi.example.entity.ModEntities;
+import com.yi.example.entity.custom.PorcupineEntity;
 import com.yi.example.util.ModCustomTrades;
 import com.yi.example.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,5 +38,7 @@ public class ExampleMod implements ModInitializer {
 		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_REPLACE, 200);
+
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }

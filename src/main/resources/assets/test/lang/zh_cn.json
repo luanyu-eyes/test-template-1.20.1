@@ -18,6 +18,7 @@
   "item.test.corn_seeds": "玉米种子",
   "item.test.bar_brawl_music_disc": "bar_brawl唱片",
   "item.test.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+  "item.test.porcupine_spawn_egg": "豪猪刷怪蛋",
 
   "block.test.dahlia": "大丽花",
   "block.test.ruby_block": "红宝石方块",
@@ -39,6 +40,8 @@
   "sounds.test.sound_block_place": "声音方块放置",
   "sounds.test.sound_block_hit": "声音方块击打",
   "sounds.test.sound_block_fall": "声音方块落下",
+
+  "entity.test.porcupine": "豪猪",
 
   "itemgroup.ruby": "红宝石",
 

@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COAL_REPLACE);
 
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
 
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.RUBY_PICKAXE);
