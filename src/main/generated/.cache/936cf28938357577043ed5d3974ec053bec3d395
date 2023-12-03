@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-02T16:15:56.6756465	Test/Model Definitions
+// 1.20.2	2023-12-03T14:35:43.090915	Test/Model Definitions
 5e62a7e075234eb5773d7c1dfbc2024c0093bd18 assets\test\models\item\ruby_leggings_amethyst_trim.json
 86595ca90ff6c1b81bb7826c4b28cca46a5e0bbb assets\test\models\block\sound_block.json
 d29cfb5175e3d2feb3414f28bfc289b3db17fbdb assets\test\models\block\corn_crop_stage5.json
@@ -53,8 +53,8 @@ baac4b2699843ad571dd457303cde80ba58b8dfa assets\test\models\item\ruby_slab.json
 443f34be4fa515576ce23767a6a107b89bff7ae4 assets\test\models\block\ruby_door_top_left.json
 9e80c111e68486a806aa07c634710e8326f4f009 assets\test\models\block\ruby_gate_fence.json
 cbc4eb1b5c32dbae16a20dd4b64cca5305b6e4b9 assets\test\models\item\ruby_boots_quartz_trim.json
-ad2e9f687e09258bff6b148d8ad01d154b5252ba assets\test\models\item\ruby_chestplate.json
 a470afbd18e6154c53a547c3866b536ac077e657 assets\test\models\item\ruby_boots.json
+ad2e9f687e09258bff6b148d8ad01d154b5252ba assets\test\models\item\ruby_chestplate.json
 b181af823e0d31077b90d0163417a42e8e8bec15 assets\test\models\item\ruby.json
 df1266ddc722286a30bf565d6fc5381c06c89ee0 assets\test\models\block\ruby_fence_side.json
 b7faa9d1b5db62d85a617425f3914fbd4645e39b assets\test\blockstates\potted_dahlia.json
@@ -84,6 +84,7 @@ b1c0b8cb3fa2501d2c98218447de1b345f06672d assets\test\models\item\ruby_helmet_net
 163b825a55e565b231224f5816e0b3fb5967ed95 assets\test\models\block\ruby_button_inventory.json
 703bca5e7f610263d9b295a44023cb452d741167 assets\test\models\item\ruby_chestplate_redstone_trim.json
 6a30c785e9d5a8d91a5ccb21a937daa5ca93dd1c assets\test\models\item\ruby_leggings_quartz_trim.json
+b40a055e5bf3941922e1cfe1bbb2041070216a4a assets\test\blockstates\gem_polishing_station.json
 83827cc5677fabc0f0661cd921d061781fe15527 assets\test\models\block\corn_crop_stage1.json
 93a6f71ae3326df01920c2aadd471597a9c38d3a assets\test\models\item\ruby_leggings_netherite_trim.json
 86d4ce9d88e0ab792732043be5b27a0d0d758d2d assets\test\models\item\ruby_chestplate_emerald_trim.json
@@ -133,6 +134,7 @@ f5fe4028df43bc9d5346016bde83246ff0130439 assets\test\models\item\ruby_boots_gold
 6ce0e3d2541b9b11f4ef1fd6deecd6cbd1f400be assets\test\models\item\ruby_door.json
 d73aeef7ce1aee7a31a3096865af8ab5605d49a4 assets\test\blockstates\ruby_gate_fence.json
 daa7cca6bb746d419f62cd5281426c021c4bae86 assets\test\models\item\ruby_leggings_emerald_trim.json
+e5ba35a2823e99cb337311ea510307612c6daf14 assets\test\models\item\gem_polishing_station.json
 9dbaa98a0d8e358821c7341e59698af621ea42d0 assets\test\models\item\dahlia.json
 bc8a0f03833d49b12aa3102166ec1a22786849bc assets\test\models\block\ruby_block.json
 0e038422aab44c83b8564fb056007f57cb1560f5 assets\test\models\item\ruby_chestplate_iron_trim.json

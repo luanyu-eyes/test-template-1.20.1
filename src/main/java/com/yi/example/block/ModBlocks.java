@@ -3,6 +3,7 @@ package com.yi.example.block;
 import com.yi.example.ExampleMod;
 import com.yi.example.Sound.ModSounds;
 import com.yi.example.block.custom.CornCropBlock;
+import com.yi.example.block.custom.GemPolishingStationBlock;
 import com.yi.example.block.custom.SoundBlock;
 import com.yi.example.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -52,6 +53,8 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK,new Identifier(ExampleMod.MOD_ID,"potted_dahlia"),
             new FlowerPotBlock(DAHLIA,FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block GEN_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ExampleMod.MOD_ID, name), block);

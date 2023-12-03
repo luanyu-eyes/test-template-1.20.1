@@ -51,6 +51,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModBlocks.GEN_POLISHING_STATION);
                     }).build());
 
     public static void registerItemGroups(){
