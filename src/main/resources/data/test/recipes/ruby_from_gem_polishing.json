@@ -1,0 +1,12 @@
+{
+  "type": "test:gem_polishing",
+  "ingredients": [
+    {
+      "item": "test:metal_detector"
+    }
+  ],
+  "output": {
+    "item": "test:ruby",
+    "count": 3
+  }
+}

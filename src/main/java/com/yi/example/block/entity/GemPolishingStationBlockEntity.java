@@ -1,6 +1,7 @@
 package com.yi.example.block.entity;
 
 import com.yi.example.Item.ModItems;
+import com.yi.example.recipe.GemPolishingRecipe;
 import com.yi.example.screen.GemPolishingScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import net.minecraft.block.BlockState;
@@ -9,11 +10,13 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
+import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.PacketByteBuf;
+import net.minecraft.recipe.RecipeEntry;
 import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -22,6 +25,8 @@ import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class GemPolishingStationBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory,ImplementedInvenory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2,ItemStack.EMPTY);
@@ -118,10 +123,13 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
     }
 
     private void craftItem() {
+        Optional<RecipeEntry<GemPolishingRecipe>> recipe = getCurrentRecipe();
+
         this.removeStack(INPUT_SLOT,1);
         ItemStack result = new ItemStack(ModItems.RUBY);
 
-        this.setStack(OUTPUT_SLOT,new ItemStack(result.getItem(),getStack(OUTPUT_SLOT).getCount() + result.getCount()));
+        this.setStack(OUTPUT_SLOT,new ItemStack(recipe.get().value().getResult(null).getItem(),
+                getStack(OUTPUT_SLOT).getCount() + recipe.get().value().getResult(null).getCount()));
     }
 
     private boolean hasCraftingFinished() {
@@ -133,10 +141,19 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
     }
 
     private boolean hasRecipe() {
-        ItemStack result = new ItemStack(ModItems.RUBY);
-        boolean hasInput = getStack(INPUT_SLOT).getItem() == ModItems.METAL_DETECTOR;
+        Optional<RecipeEntry<GemPolishingRecipe>> recipe = getCurrentRecipe();
         
-        return hasInput && canInsertAmountIntoOutputSlot(result) && canInsertItemIntoOutputSlot(result.getItem());
+        return recipe.isPresent() && canInsertAmountIntoOutputSlot(recipe.get().value().getResult(null))
+                && canInsertItemIntoOutputSlot(recipe.get().value().getResult(null).getItem());
+    }
+
+    private Optional<RecipeEntry<GemPolishingRecipe>> getCurrentRecipe() {
+        SimpleInventory inv = new SimpleInventory(this.size());
+        for(int i = 0; i < this.size(); i++){
+            inv.setStack(i,this.getStack(i));
+        }
+
+        return  getWorld().getRecipeManager().getFirstMatch(GemPolishingRecipe.Type.INSTANC,inv,getWorld());
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {

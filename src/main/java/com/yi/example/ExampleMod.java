@@ -7,6 +7,7 @@ import com.yi.example.block.ModBlocks;
 import com.yi.example.block.entity.ModBlockEntities;
 import com.yi.example.entity.ModEntities;
 import com.yi.example.entity.custom.PorcupineEntity;
+import com.yi.example.recipe.ModRecipes;
 import com.yi.example.screen.ModScreenHandlers;
 import com.yi.example.util.ModCustomTrades;
 import com.yi.example.util.ModLootTableModifiers;
@@ -40,6 +41,7 @@ public class ExampleMod implements ModInitializer {
 		ModSounds.registerSounds();
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
+		ModRecipes.registerRecipe();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_REPLACE, 200);
 
