@@ -1,6 +1,8 @@
 package com.yi.example;
 
 import com.yi.example.block.ModBlocks;
+import com.yi.example.block.entity.ModBlockEntities;
+import com.yi.example.block.entity.render.GemPolishingBlockEntityRenderer;
 import com.yi.example.entity.ModEntities;
 import com.yi.example.entity.client.ModModelLayers;
 import com.yi.example.entity.client.PorcupineModel;
@@ -13,6 +15,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 
 public class ExampleModClient implements ClientModInitializer {
     @Override
@@ -30,5 +33,7 @@ public class ExampleModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE,PorcupineModel::getTexturedModelData);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLEER, GemPolishingScreen::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.GEM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
     }
 }
